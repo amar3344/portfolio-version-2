@@ -8,9 +8,14 @@ const social =  [
           },
           {
             "name": "instagram",
-            "url": "https://www.instagram.com",
+            "url": "https://www.instagram.com/amar_kumar_reddy",
             "class": "fab fa-instagram"
-          }
+          },
+          {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/amar-8328390294-kumar",
+            "class": "fab fa-linkedin"
+          },
         ]
 
 export default function Footer() {

@@ -441,3 +441,8 @@ footer a:focus {
   margin-top: 50px;
   font-size: 22px;
 }
+
+.background{
+  background-color: #69696990;
+  border-radius: 10px;
+}
