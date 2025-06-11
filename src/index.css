@@ -104,7 +104,9 @@ header h1 {
 }
 
 .slider-image {
-  border: 5px solid #D7CAAA;
+  border: 5px solid red;
+  height: 400px;
+  width: 200px;
 }
 
 .slider-tab {

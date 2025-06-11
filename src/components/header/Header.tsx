@@ -1,7 +1,7 @@
 import React from 'react'
 import Switch from "react-switch";
 import Typical from "react-typical";
-import "../../index.css"
+import "../../index.css";
 
 interface IProps{
     sharedData:any
@@ -19,6 +19,7 @@ export default function Header(props:IProps) {
             <div className="row aligner" style={{ height: '100%' }}>
                 <div className="col-md-12">
                     <div>
+                        <i className="fa-solid fa-laptop"></i>
                         <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
                         <br />
                         <h1 className="mb-0">

@@ -11,9 +11,22 @@ interface IProps {
 const img1 = require("./lessericon.webp")
 const img2 = require("./lesser1.jpeg")
 const img3 = require("./lesser2.jpeg")
+const gigIcon = require("./gigIcon.jpeg")
+const gigImg  = require("./gigImg1.jpeg")
+const gigImg2 = require("./2.png")
+const sunriseIcon = require("./download.png")
+const sunriseImg1 = require("./download (1).jpeg")
+const sunriseImg2 = require("./download.jpeg")
+const lmsIcon = require("./lmsIcon.jpeg")
+const lmsImg1 = require("./lmsImg.png")
+const lmsImg2 = require("./lmsImg2.jpeg")
 
-const projects =  [
-     {
+const gigDescription = "Gigchasers is a marketplace app to bring together people who are seeking assistance in some way, E.g. flat tires, house cleaning, and people who can handle the jobs. The consumers are called Deployers (like employers) and the users who handle the jobs are Deployees."
+"The platform will be quite secure with the users emails, phones and driving licenses should be verified to be able to use the platform.";
+const offSpaceDescription = "The app is a personalized website builder that allows users to create and showcase their work, portfolios, CVs, or landing pages with a variety of customizable templates. Users can design their spaces using pre-defined project templates (e.g., cover, gallery, about, contact form, experience, charts, text, images, and titles), each offering multiple layout variations"
+
+const projects = [
+    {
         "title": "Lesser",
         "startDate": "2023",
         "description": "Lesser is an application directed to help recyclers in Saudi to find the nearest recycling station and dispose of their waste. While doing so, the recyclers will get points that allow them to redeem in exchange for discount codes or helpful products.",
@@ -35,114 +48,178 @@ const projects =  [
         ]
     },
     {
-        "title": "OffSpace",
-        "startDate": "2025",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "GigChasers",
+        "startDate": "2024",
+        "description": gigDescription,
         "images": [
-            "images/portfolio/animal-shelter/p1.jpg",
-            "images/portfolio/animal-shelter/p2.jpg"
+            gigIcon,
+            gigImg,
+            gigImg2
+        ],
+        "url": "https://gigchasers.com",
+        "technologies": [
+            {
+                "class": "devicon-react-plain",
+                "name": "ReactNative"
+            },
+            {
+                "class": "devicon-typescript-plain",
+                "name": "TypeScript"
+            },
+            {
+                "class" : "devicon-androidstudio-plain",
+                "name" : "Android Studio"
+            },
+            {
+                "class" : "devicon-xcode-plain",
+                "name" : "XCode"
+            },
+            {
+                "class" : "devicon-jest-plain",
+                "name" : "Jest"
+            }
+        ]
+    },
+    {
+        "title": "Sunrise Journal",
+        "startDate": "2024",
+        "description": "Sunrise Journal is ideal for individuals in the Traumatic Brain Injury (TBI) community, including both patients and caregivers. However, the app is open to anyone who enjoys recording their daily progress. It caters to users who wish to track their journey through daily prompts about progress, exercise, therapy, yoga, superfoods etc.",
+        "images": [
+            sunriseIcon,
+            sunriseImg1,
+            sunriseImg2
         ],
         "url": "",
         "technologies": [
             {
-                "class": "devicon-angularjs-plain",
-                "name": "Angular"
+                "class": "devicon-react-plain",
+                "name": "ReactNative"
             },
             {
                 "class": "devicon-typescript-plain",
                 "name": "TypeScript"
             },
             {
-                "class": "devicon-csharp-plain",
-                "name": "C#"
-            }
-        ]
-    },
-    {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-            "images/portfolio/photography/p1.jpg",
-            "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-            {
-                "class": "devicon-react-original",
-                "name": "React"
+                "class" : "devicon-androidstudio-plain",
+                "name" : "Android Studio"
             },
             {
-                "class": "devicon-javascript-plain",
-                "name": "JavaScript"
+                "class" : "devicon-xcode-plain",
+                "name" : "XCode"
+            },
+            {
+                "class" : "devicon-jest-plain",
+                "name" : "Jest"
             }
         ]
     },
     {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Learning Management System",
+        "startDate": "2023",
+        "description": "The LMS app offers a streamlined platform for employee training and development, featuring four distinct user flows. Employees can enroll in courses, earn certificates, and track their progress seamlessly. Team Leads have the ability to review team members' progress, assigncourses, and facilitate their professional growth. Managers, with additional privileges, can oversee team progress, assign courses, and manage the app's content by adding new courses and users. Admins hold ultimate control, managing all app activities, including user management, course oversight, and progress monitoring, ensuring the smooth functioning of the training ecosystem.",
         "images": [
-            "images/portfolio/adventure/p1.jpg",
-            "images/portfolio/adventure/p2.jpg"
+            lmsIcon,
+            lmsImg1,
+            lmsImg2
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
             {
-                "class": "devicon-angularjs-plain",
-                "name": "Angular"
+                "class": "devicon-react-plain",
+                "name": "ReactNative"
             },
             {
                 "class": "devicon-typescript-plain",
                 "name": "TypeScript"
             },
             {
-                "class": "devicon-csharp-plain",
-                "name": "C#"
+                "class" : "devicon-androidstudio-plain",
+                "name" : "Android Studio"
+            },
+            {
+                "class" : "devicon-xcode-plain",
+                "name" : "XCode"
+            },
+            {
+                "class" : "devicon-jest-plain",
+                "name" : "Jest"
             }
         ]
-    }
+    },
+        {
+        "title": "OffSpace",
+        "startDate": "2025",
+        "description": offSpaceDescription,
+        "images": [
+            gigIcon,
+            gigImg,
+            gigImg2
+        ],
+        "url": "https://gigchasers.com",
+        "technologies": [
+            {
+                "class": "devicon-react-plain",
+                "name": "ReactNative"
+            },
+            {
+                "class": "devicon-typescript-plain",
+                "name": "TypeScript"
+            },
+            {
+                "class" : "devicon-androidstudio-plain",
+                "name" : "Android Studio"
+            },
+            {
+                "class" : "devicon-xcode-plain",
+                "name" : "XCode"
+            },
+            {
+                "class" : "devicon-jest-plain",
+                "name" : "Jest"
+            }
+        ]
+    },
 ]
 
 export default function Projects(props: IProps) {
 
-    const [detailsModalShow,setdetailsModalShow] = useState(false)
-    const [currentProject,setCurrentProject]  = useState({})
+    const [detailsModalShow, setdetailsModalShow] = useState(false)
+    const [currentProject, setCurrentProject] = useState({})
 
-    const currentProjects = (projects:{title:string,images:string[],startDate:string}) =>{
-         return (
-                <div
-                    className="col-sm-12 col-md-6 col-lg-4"
-                    key={projects.title}
-                    style={{ cursor: "pointer" }}
-                    onClick={()=>handleDetailsModal(projects)}
-                >
-                    <span className="portfolio-item d-block">
-                        <div className="foto">
-                            <div>
-                                <img
-                                    src={projects.images[0]}
-                                    alt="projectImages"
-                                    height="230"
-                                    style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
-                                />
-                                <span className="project-date">{projects.startDate}</span>
-                                <br />
-                                <p className="project-title-settings mt-3">
-                                    {projects.title}
-                                </p>
-                            </div>
+    const currentProjects = (projects: { title: string, images: string[], startDate: string }) => {
+        return (
+            <div
+                className="col-sm-12 col-md-6 col-lg-4"
+                key={projects.title}
+                style={{ cursor: "pointer" }}
+                onClick={() => handleDetailsModal(projects)}
+            >
+                <span className="portfolio-item d-block">
+                    <div className="foto">
+                        <div>
+                            <img
+                                src={projects.images[0]}
+                                alt="projectImages"
+                                height="230"
+                                style={{ marginBottom: 0, paddingBottom: 0, position: 'relative' }}
+                            />
+                            <span className="project-date">{projects.startDate}</span>
+                            <br />
+                            <p className="project-title-settings mt-3">
+                                {projects.title}
+                            </p>
                         </div>
-                    </span>
-                </div>
-            );
+                    </div>
+                </span>
+            </div>
+        );
     }
 
-    const handleDetailsModal = (project:any) =>{
+    const handleDetailsModal = (project: any) => {
         setCurrentProject(project)
         setdetailsModalShow(true)
     }
-    const closeDetailsModal = () =>{
+    const closeDetailsModal = () => {
         setdetailsModalShow(false)
 
     }
@@ -154,8 +231,8 @@ export default function Projects(props: IProps) {
                 </h1>
                 <div className="col-md-12 mx-auto">
                     <div className="row mx-auto">{
-                        projects.map((eachProject:any)=>currentProjects(eachProject))
-                        }</div>
+                        projects.map((eachProject: any) => currentProjects(eachProject))
+                    }</div>
                 </div>
                 <ProjectDetailsModal
                     show={detailsModalShow}
