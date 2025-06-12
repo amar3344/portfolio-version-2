@@ -146,7 +146,7 @@ const projects = [
             }
         ]
     },
-        {
+    {
         "title": "OffSpace",
         "startDate": "2025",
         "description": offSpaceDescription,
