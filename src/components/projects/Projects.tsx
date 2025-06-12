@@ -20,9 +20,11 @@ const sunriseImg2 = require("./download.jpeg")
 const lmsIcon = require("./lmsIcon.jpeg")
 const lmsImg1 = require("./lmsImg.png")
 const lmsImg2 = require("./lmsImg2.jpeg")
+const realEstateIcon = require("./realEstateIcon.jpeg")
+const realEstateImg = require("./realestateImg.jpeg")
+const realEstateImg2 = require("./realestateImg2.png")
 
 const gigDescription = "Gigchasers is a marketplace app to bring together people who are seeking assistance in some way, E.g. flat tires, house cleaning, and people who can handle the jobs. The consumers are called Deployers (like employers) and the users who handle the jobs are Deployees.The platform will be quite secure with the users emails, phones and driving licenses should be verified to be able to use the platform.";
-const offSpaceDescription = "The app is a personalized website builder that allows users to create and showcase their work, portfolios, CVs, or landing pages with a variety of customizable templates. Users can design their spaces using pre-defined project templates (e.g., cover, gallery, about, contact form, experience, charts, text, images, and titles), each offering multiple layout variations"
 
 const projects = [
     {
@@ -66,16 +68,16 @@ const projects = [
                 "name": "TypeScript"
             },
             {
-                "class" : "devicon-androidstudio-plain",
-                "name" : "Android Studio"
+                "class": "devicon-androidstudio-plain",
+                "name": "Android Studio"
             },
             {
-                "class" : "devicon-xcode-plain",
-                "name" : "XCode"
+                "class": "devicon-xcode-plain",
+                "name": "XCode"
             },
             {
-                "class" : "devicon-jest-plain",
-                "name" : "Jest"
+                "class": "devicon-jest-plain",
+                "name": "Jest"
             }
         ]
     },
@@ -99,16 +101,16 @@ const projects = [
                 "name": "TypeScript"
             },
             {
-                "class" : "devicon-androidstudio-plain",
-                "name" : "Android Studio"
+                "class": "devicon-androidstudio-plain",
+                "name": "Android Studio"
             },
             {
-                "class" : "devicon-xcode-plain",
-                "name" : "XCode"
+                "class": "devicon-xcode-plain",
+                "name": "XCode"
             },
             {
-                "class" : "devicon-jest-plain",
-                "name" : "Jest"
+                "class": "devicon-jest-plain",
+                "name": "Jest"
             }
         ]
     },
@@ -132,29 +134,29 @@ const projects = [
                 "name": "TypeScript"
             },
             {
-                "class" : "devicon-androidstudio-plain",
-                "name" : "Android Studio"
+                "class": "devicon-androidstudio-plain",
+                "name": "Android Studio"
             },
             {
-                "class" : "devicon-xcode-plain",
-                "name" : "XCode"
+                "class": "devicon-xcode-plain",
+                "name": "XCode"
             },
             {
-                "class" : "devicon-jest-plain",
-                "name" : "Jest"
+                "class": "devicon-jest-plain",
+                "name": "Jest"
             }
         ]
     },
-        {
-        "title": "OffSpace",
-        "startDate": "2025",
-        "description": offSpaceDescription,
+    {
+        "title": "Real-Estate",
+        "startDate": "2024",
+        "description": "Real Estate/Constructions app- Connecting real-estate investors, builders, and mortgage people. Anything that covers the real estate industry. Find a builder or assist with a mortgage lender etc.A common user will upload documents for the agents and loan officer to file, or use for loan/ listing purposes.",
         "images": [
-            gigIcon,
-            gigImg,
-            gigImg2
+            realEstateIcon,
+            realEstateImg,
+            realEstateImg2
         ],
-        "url": "https://gigchasers.com",
+        "url": "",
         "technologies": [
             {
                 "class": "devicon-react-plain",
@@ -165,16 +167,16 @@ const projects = [
                 "name": "TypeScript"
             },
             {
-                "class" : "devicon-androidstudio-plain",
-                "name" : "Android Studio"
+                "class": "devicon-androidstudio-plain",
+                "name": "Android Studio"
             },
             {
-                "class" : "devicon-xcode-plain",
-                "name" : "XCode"
+                "class": "devicon-xcode-plain",
+                "name": "XCode"
             },
             {
-                "class" : "devicon-jest-plain",
-                "name" : "Jest"
+                "class": "devicon-jest-plain",
+                "name": "Jest"
             }
         ]
     },

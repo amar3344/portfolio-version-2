@@ -5,7 +5,7 @@ import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter , Routes, Route} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const myDetails = {
   "basic_info": {
@@ -17,7 +17,7 @@ const myDetails = {
 const resumeData = {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Amar kumar Reddy. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Amar kumar Reddy. Fictional person for preview purposes :) I'm working with newest front-end frameworks like ReactNative, React and Node/Express. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
       "section_name": {
         "about": "About me",
         "projects": "Projects",

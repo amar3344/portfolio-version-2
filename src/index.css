@@ -31,6 +31,8 @@ html {
 
 .title-container {
   height: 50px;
+  align-items: center;
+  font-size: large;
 }
 
 .title-styles {
