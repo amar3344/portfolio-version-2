@@ -21,8 +21,7 @@ const lmsIcon = require("./lmsIcon.jpeg")
 const lmsImg1 = require("./lmsImg.png")
 const lmsImg2 = require("./lmsImg2.jpeg")
 
-const gigDescription = "Gigchasers is a marketplace app to bring together people who are seeking assistance in some way, E.g. flat tires, house cleaning, and people who can handle the jobs. The consumers are called Deployers (like employers) and the users who handle the jobs are Deployees."
-"The platform will be quite secure with the users emails, phones and driving licenses should be verified to be able to use the platform.";
+const gigDescription = "Gigchasers is a marketplace app to bring together people who are seeking assistance in some way, E.g. flat tires, house cleaning, and people who can handle the jobs. The consumers are called Deployers (like employers) and the users who handle the jobs are Deployees.The platform will be quite secure with the users emails, phones and driving licenses should be verified to be able to use the platform.";
 const offSpaceDescription = "The app is a personalized website builder that allows users to create and showcase their work, portfolios, CVs, or landing pages with a variety of customizable templates. Users can design their spaces using pre-defined project templates (e.g., cover, gallery, about, contact form, experience, charts, text, images, and titles), each offering multiple layout variations"
 
 const projects = [
@@ -146,7 +145,7 @@ const projects = [
             }
         ]
     },
-    {
+        {
         "title": "OffSpace",
         "startDate": "2025",
         "description": offSpaceDescription,
