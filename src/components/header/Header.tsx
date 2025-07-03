@@ -16,17 +16,12 @@ export default function Header(props: IProps) {
     }, (props, prevProp) => true);
 
     const downloadResume = async () => {
-        const url = "https://drive.google.com/uc?export=download&id=1VlHXifQ6A_24DboFi4_tI2jad6KIBG8J";
-        const response = await fetch(url);
-        const blob = await response.blob();
-        const fileURL = window.URL.createObjectURL(blob);
-
-        const alink = document.createElement("a");
-        alink.href = fileURL;
-        alink.download = "SamplePDF.pdf";
-        document.body.appendChild(alink);
-        alink.click();
-        document.body.removeChild(alink);
+        const aElement = document.createElement("a")
+        aElement.href = "https://drive.google.com/uc?export=download&id=1VlHXifQ6A_24DboFi4_tI2jad6KIBG8J"
+        aElement.download="amarkumarresume.pdf"
+        aElement.target = "_blank"
+        aElement.rel = "noopener noreferrer"
+        aElement.click()
     }
 
     return (
